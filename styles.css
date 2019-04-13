@@ -1,0 +1,71 @@
+html {
+    background-image: url(Images/background1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.orange-div {
+    border-radius: 10px;
+    opacity: 0.9;
+    background-color: coral;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2 {
+    color: brown;
+    font-family: Georgia;
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+.title h1 {
+    color: brown;
+    font-family: Georgia, cursive;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.arrow-button-caps, .arrow-button-toques {
+    background-color: brown;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.arrow-image-caps, .arrow-image-toques{
+    margin-top: 40%;
+    width: 50px;
+    height: auto;
+}
+
+.arrow-rotate {
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.body-caps, .body-toques{
+    padding-left: 20%;
+    display: inline-block;
+    display: flex;
+}
+
+.hat-title {
+    font-family: Georgia, cursive;
+    font-size: 20px;
+    color: brown;
+    padding-right: 5%;
+    text-indent: -5%;
+}
+
+.hat-image {
+    width: 25%;
+    height: auto;
+    border-radius: 30px;
+}
